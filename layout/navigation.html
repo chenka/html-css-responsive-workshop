@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Navigation Bar</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      ul.nav-vertical {
+        background: lightgreen;
+        width: 20%;
+        padding-left: 0px;
+      }
+      ul.nav-vertical li {
+        list-style: none;
+      }
+      ul.nav-vertical a:hover {
+        background: green;
+        color: white;
+      }
+      ul.nav-vertical a {
+        padding: 10px 10px;
+        color: black;
+        text-decoration: none;
+        display: block;
+      }
+
+      ul.nav-horizontal {
+        padding: 0;
+        background-color: #333;
+        /* text-align: center; */
+      }
+      ul.nav-horizontal li {
+        list-style: none;
+        display: inline-block;
+        font-family: sans-serif,monospace,serif;
+      }
+
+      ul.nav-horizontal a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 10px;
+        display: inline-block;
+      }
+      ul.nav-horizontal a:hover {
+        background: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vertical</h1>
+    <ul class="nav-vertical">
+      <li><a href="/home">Home</a></li>
+      <li><a href="/home">Blog</a></li>
+      <li><a href="/home">Contact</a></li>
+      <li><a href="/home">News</a></li>
+    </ul>
+    <h1>Horizontal</h1>
+    <ul class="nav-horizontal">
+      <li><a href="/home">Home</a></li>
+      <li><a href="/home">Blog</a></li>
+      <li><a href="/home">Contact</a></li>
+      <li><a href="/home">News</a></li>
+    </ul>
+  </body>
+</html>
